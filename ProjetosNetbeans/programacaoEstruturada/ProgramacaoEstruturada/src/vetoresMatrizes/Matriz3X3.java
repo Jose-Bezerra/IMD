@@ -54,6 +54,7 @@ public class Matriz3X3 {
             }
         }
         
+        //EX: 3 ->  5 -3 10; 15 8 2; 7 9 -4;
         System.out.println("Números negativos = " + count);
     }
 

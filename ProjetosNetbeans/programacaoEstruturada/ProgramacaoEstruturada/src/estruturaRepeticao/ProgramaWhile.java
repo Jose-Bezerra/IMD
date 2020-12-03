@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package programacaoEstruturada;
-
-import java.util.Scanner;
+package estruturaRepeticao;
 
 /**
  *
  * @author josebezerrafilho
  */
-public class CondicaoTernaria {
+public class ProgramaWhile {
     public static void main(String[] args) {
-        
-        float preco = 34.5f;
-        float desconto = (preco < 20.0f) ? preco * 0.1f : preco * 0.05f;
-        
-        System.out.println(desconto);
+        int i = 1;
+        while ( i<= 10 ) {
+            System.out.println(i);
+            i++;
+        }
     }
+    
 }

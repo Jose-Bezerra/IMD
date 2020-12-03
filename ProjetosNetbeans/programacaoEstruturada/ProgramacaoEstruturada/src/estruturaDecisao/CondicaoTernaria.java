@@ -3,18 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package programacaoEstruturada;
+package estruturaDecisao;
+
+import java.util.Scanner;
 
 /**
  *
  * @author josebezerrafilho
  */
-public class ProgramaFor {
+public class CondicaoTernaria {
     public static void main(String[] args) {
-        for( int i = 0; i <= 10; i++) {
-            System.out.println(i);
-        }
+        
+        float preco = 34.5f;
+        float desconto = (preco < 20.0f) ? preco * 0.1f : preco * 0.05f;
+        
+        System.out.println(desconto);
     }
 }
-
-
