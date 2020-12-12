@@ -1,6 +1,17 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package funcoes.recursao;
+
+/**
+ *
+ * @author josebezerrafilho
+ */
 public class Labirinto {
 
-  private static final char PAREDE_VERTICAL = '|';
+    private static final char PAREDE_VERTICAL = '|';
     private static final char PAREDE_HORIZONTAL = '-';
     private static final char VAZIO = ' ';
     private static final char TAMANHO = 10;
@@ -20,12 +31,12 @@ public class Labirinto {
 
         for (i = 1; i < TAMANHO - 1; i++) {
             for (j = 1; j < TAMANHO - 1; j++) {
-              if ( Math.random() > PROBABILIDADE ) {
-                tabuleiro[i][j] = PAREDE_INTERNA;
-              } else {
-                
-                tabuleiro[i][j] = VAZIO;
-              }
+                if (Math.random() > PROBABILIDADE) {
+                    tabuleiro[i][j] = PAREDE_INTERNA;
+                } else {
+
+                    tabuleiro[i][j] = VAZIO;
+                }
             }
         }
     }
@@ -40,9 +51,8 @@ public class Labirinto {
     }
 
     public static void main(String[] args) {
-        tabuleiro = new char[10][10];
+        tabuleiro = new char[20][20];
         inicializarMatriz();
         imprimir();
     }
-
 }
