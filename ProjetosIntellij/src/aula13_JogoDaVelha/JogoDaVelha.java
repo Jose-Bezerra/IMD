@@ -181,7 +181,7 @@ public class JogoDaVelha {
     } else {
       // se não houve vencedor
       System.out.println("Não houve vencedor! O jogo foi empate!!");
-    }
+    }1
   }
 }
 
