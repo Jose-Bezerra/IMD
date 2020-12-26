@@ -6,3 +6,4 @@ test/
 *.mf
 *.iml
 out/
+.*
